@@ -54,19 +54,39 @@ function Skills() {
         </div>
       </div>
       <h3>Soft Skills</h3>
-      <div>
-        {/* Debes poder explicar tus ideas y escuchar las necesidades y expectativas de los demás de manera efectiva */}
-        <img src="" alt="Effective Communication" />
-        {/* Permite analizar problemas, identificar soluciones y tomar decisiones informadas */}
-        <img src="" alt="Critical Thinking" />
-        {/* Habilidad para resolver problemas de manera eficiente y encontrar soluciones efectivas es esencial */}
-        <img src="" alt="Problem Solving" />
-        <img src="" alt="Teamwork" />
-        <img src="" alt="Adaptability" />
-        <img src="" alt="Attention to Detail" />
-        <img src="" alt="Time Management" />
-        <img src="" alt="Creative Thinking" />
-        <img src="" alt="Curiosity and Continuous Learning" />
+      <div  className="softSkills">
+        <div class="contenedor-imagen2">
+          {/* Debes poder explicar tus ideas y escuchar las necesidades y expectativas de los demás de manera efectiva */}
+          <img src="/effective.jpg" alt="Effective Communication" />
+        </div>
+        <div class="contenedor-imagen2">
+          {/* Permite analizar problemas, identificar soluciones y tomar decisiones informadas */}
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/critical.jpg" alt="Critical Thinking" />
+          {/* Habilidad para resolver problemas de manera eficiente y encontrar soluciones efectivas es esencial */}
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/problem.png" alt="Problem Solving" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/teamwork.png" alt="Teamwork" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/adaptability.jpg" alt="Adaptability" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/attention.jpg" alt="Attention to Detail" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/time.png" alt="Time Management" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/creative.jpg" alt="Creative Thinking" />
+        </div>
+        <div class="contenedor-imagen2">
+          <img src="/lifelong.png" alt="Curiosity and Continuous Learning" />
+        </div>
       </div>
       <hr />
     </div>

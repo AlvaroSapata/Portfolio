@@ -38,11 +38,12 @@
 
 /* ________________________ SKILLS ________________________ */
 
-.HardSkills{
+.HardSkills, .softSkills{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-  margin: 10px;
+  margin: 20px;
 }
 .contenedor-imagen {
   height: 50px; /* Establece aquí la altura deseada */
@@ -52,6 +53,18 @@
 }
 
 .contenedor-imagen img {
+  max-height: 100%;
+  width: auto;
+}
+
+.contenedor-imagen2 {
+  height: 80px; /* Establece aquí la altura deseada */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-imagen2 img {
   max-height: 100%;
   width: auto;
 }

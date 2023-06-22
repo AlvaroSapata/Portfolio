@@ -3,6 +3,7 @@ import React from 'react'
 function Projects() {
   return (
     <div id='Projects'>
+    <h3>Projects</h3>
     <div>
       <img src="/VoltajeBarberStudio.png" alt="Voltaje Barber Studio" width={"200px"}/>
       <h4>Voltaje Barber Studio</h4>
