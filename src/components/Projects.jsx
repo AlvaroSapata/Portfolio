@@ -25,6 +25,7 @@ function Projects() {
       <a href="https://github.com/AlvaroSapata/Temple-Server"><img src="/github.png" alt="GitHub Server" /></a>
       <a href="https://templewav.netlify.app/"><img src="/http.png" alt="http" /></a>    
     </div>
+    <hr />
     </div>
   )
 }

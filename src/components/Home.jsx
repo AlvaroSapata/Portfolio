@@ -22,15 +22,15 @@ function Home() {
         Seeking to keep growing professionally, both in the technical and
         creative realms, and create projects that amaze users.
       </p>
-      <div>
+      <div className="HomeLinks">
         <a href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/">
-          <img src="/linkedin.png" alt="linkedin" />
+          <img src="/linkedin.png" alt="linkedin" width={"50px"}/>
         </a>
         <a href="https://github.com/AlvaroSapata">
-          <img src="/github.png" alt="linkedin" />
+          <img src="/github.png" alt="linkedin" width={"45px"}/>
         </a>
         <a href="">
-          <img src="" alt="email" />
+          <img src="/email.png" alt="email" width={"32px"}/>
         </a>
       </div>
       <button>
@@ -38,6 +38,7 @@ function Home() {
           About
         </a>
       </button>
+      <hr />
     </div>
   );
 }

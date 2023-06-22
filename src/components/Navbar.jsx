@@ -39,7 +39,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className="NavBar">
       <a href="#Home" onClick={handleScrollToHome}>
         Home
       </a>

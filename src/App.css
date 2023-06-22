@@ -1,3 +1,57 @@
 .App {
   text-align: center;
 }
+
+/* ________________________ NAVBAR ________________________ */
+
+.NavBar{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.NavBar a{
+  text-decoration: none;
+}
+
+.NavBar a:visited{
+  color: black;
+}
+
+/* ________________________ HOME ________________________ */
+
+.HomeLinks img{
+  
+  margin: 5px;
+}
+
+
+
+.profileImg{
+  border-radius: 100%;
+}
+
+.AboutStructure{
+  display: flex;
+}
+
+/* ________________________ SKILLS ________________________ */
+
+.HardSkills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+.contenedor-imagen {
+  height: 50px; /* Establece aquí la altura deseada */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-imagen img {
+  max-height: 100%;
+  width: auto;
+}
