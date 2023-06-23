@@ -9,8 +9,7 @@ function About() {
     <p>Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </p>
     <p>Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </p>
     </div>
-    <img src="/Profile.jpg" alt="profile" width={"200px"} className='profileImg'/>
-    <hr />
+    <img src="/23022023-DOM04086-fotor-2023062393343.png" alt="profile" width={"200px"} className='profileImg'/>
     </div>
   )
 }

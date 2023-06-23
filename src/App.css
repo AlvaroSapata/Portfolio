@@ -1,44 +1,117 @@
+.paletadecolores {
+  color: #4e584d;
+  color: #344938;
+  color: #25362b;
+  color: #899382;
+}
+
 .App {
   text-align: center;
 }
 
 /* ________________________ NAVBAR ________________________ */
 
-.NavBar{
+.NavBar {
   display: flex;
   gap: 25px;
   justify-content: center;
-  margin-top: 10px;
+  margin: 5px;
 }
 
-.NavBar a{
+.NavBar a {
   text-decoration: none;
 }
 
-.NavBar a:visited{
+.NavBar a:visited {
   color: black;
 }
 
 /* ________________________ HOME ________________________ */
 
-.HomeLinks img{
-  
-  margin: 5px;
+.HomeStyle {
+  background-image: url("/public/pexels-cátia-matos-1072179.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.HomeStyle h1 {
+  font-size: 55px
+}
 
+.HomeStyle p {
+  font-size: 20px;
+}
 
-.profileImg{
+.HomeLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+.HomeLinks img {
+  margin: 5px;
+  height: 100%;
+}
+
+.contenedor-imagen3 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contenedor-imagen3 img {
+  max-height: 100%;
+  width: auto;
+  border: solid 2px white;
   border-radius: 100%;
 }
 
-.AboutStructure{
+.Arrow-container {
+  height: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow-container img {
+  max-height: 100%;
+  width: auto;
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #25362b;
+  transition: transform 0.3s ease;
+}
+
+.Arrow-container img:hover {
+  transform: scale(1.1); /* Ajusta el valor según el tamaño deseado */
+  background-color: #344938;;
+}
+
+/* ________________________ ABOUT ________________________ */
+
+.AboutStructure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 10px
 }
 
 /* ________________________ SKILLS ________________________ */
 
-.HardSkills, .softSkills{
+.HardSkills,
+.softSkills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -46,7 +119,7 @@
   margin: 20px;
 }
 .contenedor-imagen {
-  height: 50px; /* Establece aquí la altura deseada */
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +131,7 @@
 }
 
 .contenedor-imagen2 {
-  height: 80px; /* Establece aquí la altura deseada */
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;

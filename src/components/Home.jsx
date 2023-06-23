@@ -13,7 +13,7 @@ function Home() {
   };
 
   return (
-    <div id="Home">
+    <div id="Home" className="HomeStyle">
       <h1>Alvaro Martinez</h1>
       <p>Full Stack Web Developer</p>
       <p>Passionate about programming and web application development.</p>
@@ -23,22 +23,34 @@ function Home() {
         creative realms, and create projects that amaze users.
       </p>
       <div className="HomeLinks">
-        <a href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/">
-          <img src="/linkedin.png" alt="linkedin" width={"50px"}/>
-        </a>
-        <a href="https://github.com/AlvaroSapata">
-          <img src="/github.png" alt="linkedin" width={"45px"}/>
-        </a>
-        <a href="">
-          <img src="/email.png" alt="email" width={"32px"}/>
-        </a>
+        <div>
+          <a href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/">
+            <div className="contenedor-imagen3">
+              <img src="/linkedin.png" alt="linkedin" />
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/AlvaroSapata">
+            <div className="contenedor-imagen3">
+              <img src="/github.png" alt="linkedin" />
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <div className="contenedor-imagen3">
+              <img src="/email.png" alt="email" />
+            </div>
+          </a>
+        </div>
       </div>
-      <button>
-        <a href="#About" onClick={handleScrollToAbout}>
-          About
-        </a>
-      </button>
-      <hr />
+
+      <a href="#About" onClick={handleScrollToAbout}>
+        <div className="Arrow-container">
+          <img src="/arrow-removebg-preview (1).png" alt="arrow" />
+        </div>
+      </a>
     </div>
   );
 }
