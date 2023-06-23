@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div>
+    <div className="skillStructure">
       <h3>Hard Skills</h3>
       <div className="HardSkills">
         <div class="contenedor-imagen">

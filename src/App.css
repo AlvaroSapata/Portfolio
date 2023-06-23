@@ -7,23 +7,27 @@
 
 .App {
   text-align: center;
+  background-color: #807e7e;
+  font-family: "Fira Sans", sans-serif;
 }
 
 /* ________________________ NAVBAR ________________________ */
 
 .NavBar {
   display: flex;
-  gap: 25px;
+  gap: 30px;
   justify-content: center;
-  margin: 5px;
+  padding: 10px;
+  background-color: #000000;
 }
 
 .NavBar a {
   text-decoration: none;
+  color: white;
 }
 
 .NavBar a:visited {
-  color: black;
+  color: white;
 }
 
 /* ________________________ HOME ________________________ */
@@ -42,7 +46,7 @@
 }
 
 .HomeStyle h1 {
-  font-size: 55px
+  font-size: 55px;
 }
 
 .HomeStyle p {
@@ -89,13 +93,20 @@
   border: solid 2px white;
   border-radius: 100%;
   padding: 5px;
-  background-color: #25362b;
+  background-color: #000000;
   transition: transform 0.3s ease;
 }
 
 .Arrow-container img:hover {
-  transform: scale(1.1); /* Ajusta el valor según el tamaño deseado */
-  background-color: #344938;;
+  transform: scale(1.1);
+  background-color: #344938;
+}
+
+.LinksImgContainer img {
+  transition: transform 0.3s ease;
+}
+.LinksImgContainer img:hover {
+  transform: scale(1.05);
 }
 
 /* ________________________ ABOUT ________________________ */
@@ -105,10 +116,21 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin: 10px
+  padding: 20px;
+  
+  background-color: white;
+}
+
+.aboutText {
+  width: 50vw;
 }
 
 /* ________________________ SKILLS ________________________ */
+
+.skillStructure {
+  background-color: white;
+
+}
 
 .HardSkills,
 .softSkills {
@@ -116,7 +138,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin: 20px;
+  
 }
 .contenedor-imagen {
   height: 50px;
@@ -140,4 +162,134 @@
 .contenedor-imagen2 img {
   max-height: 100%;
   width: auto;
+}
+/* ________________________ PROJECTS ________________________ */
+
+.projectStructure {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.AllProjects {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+  flex-wrap: wrap;
+}
+
+.ProjectContainer {
+  position: relative;
+  width: 280px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProjectContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.ProjectContainer:hover img {
+  opacity: 0.2;
+}
+
+.ProjectContainer {
+  background-color: black;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.ProjectContainer:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.ProjectContainer a img {
+  width: 40px;
+}
+
+.ProjectContainer h4,
+.ProjectContainer p {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.ProjectContainer div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.ProjectContainer h4 {
+  position: absolute;
+  top: -40%;
+}
+.ProjectContainer p {
+  position: absolute;
+  font-size: 13px;
+  top: -10%;
+}
+.ProjectContainer div {
+  position: absolute;
+  top: 70%;
+  display: flex;
+}
+
+.ProjectContainer:hover h4,
+.ProjectContainer:hover p,
+.ProjectContainer:hover a,
+.ProjectContainer:hover div,
+.ProjectContainer:hover div a img {
+  opacity: 1;
+}
+
+/* ________________________ CONTACT ________________________ */
+.ContactStyles {
+  background-color: #000000;
+}
+
+.ContactLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.Arrow-containerContact {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow-containerContact img {
+  max-height: 100%;
+  width: auto;
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #000000;
+  transition: transform 0.3s ease;
+}
+
+.Arrow-containerContact img:hover {
+  transform: scale(1.1);
+  background-color: #344938;
 }

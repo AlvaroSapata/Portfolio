@@ -23,22 +23,27 @@ function Home() {
         creative realms, and create projects that amaze users.
       </p>
       <div className="HomeLinks">
-        <div>
-          <a href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/">
+        <div className="LinksImgContainer">
+          <a
+            href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
+            target="blank"
+          >
             <div className="contenedor-imagen3">
               <img src="/linkedin.png" alt="linkedin" />
             </div>
           </a>
         </div>
-        <div>
-          <a href="https://github.com/AlvaroSapata">
+
+        <div className="LinksImgContainer">
+          <a href="https://github.com/AlvaroSapata" target="blank">
             <div className="contenedor-imagen3">
               <img src="/github.png" alt="linkedin" />
             </div>
           </a>
         </div>
-        <div>
-          <a href="">
+
+        <div className="LinksImgContainer">
+          <a href="mailto:alvaromfdv@gmail.com" target="blank">
             <div className="contenedor-imagen3">
               <img src="/email.png" alt="email" />
             </div>
