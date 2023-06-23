@@ -52,7 +52,7 @@ function Projects() {
           </p>
           <div>
             <a href="https://github.com/AlvaroSapata/Temple-Client" target="blank">
-              <img src="/github.png" alt="GitHub Client" />
+            <span class="tooltip"><img src="/github.png" alt="GitHub Client" /><span class="tooltip-text">Client</span></span>
             </a>
             <a href="https://github.com/AlvaroSapata/Temple-Server" target="blank">
               <img src="/github.png" alt="GitHub Server" />
