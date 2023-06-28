@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
-
+import React from "react";
 function Home() {
-  const homeRef = useRef(null);
+
   const handleScrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
