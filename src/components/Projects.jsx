@@ -18,10 +18,10 @@ function Projects() {
           </p>
           <div>
             <a href="https://github.com/AlvaroSapata/Voltaje-Barber-Studio" target="blank">
-              <img src="/github.png" alt="GitHub" />
+            <span class="tooltip"><img src="/github.png" alt="GitHub" /><span class="tooltip-text">Client</span></span>
             </a>
             <a href="https://alvarosapata.github.io/Voltaje-Barber-Studio/" target="blank">
-              <img src="/http.png" alt="http" />
+            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
             </a>
           </div>
         </div>
@@ -36,10 +36,10 @@ function Projects() {
           </p>
           <div>
             <a href="https://github.com/AlvaroSapata/NomadVentures" target="blank">
-              <img src="/github.png" alt="GitHub" />
+            <span class="tooltip"><img src="/github.png" alt="GitHub" /><span class="tooltip-text">Client</span></span>
             </a>
             <a href="https://nomadventures.adaptable.app/" target="blank">
-              <img src="/http.png" alt="http" />
+            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
             </a>
           </div>
         </div>
@@ -55,10 +55,10 @@ function Projects() {
             <span class="tooltip"><img src="/github.png" alt="GitHub Client" /><span class="tooltip-text">Client</span></span>
             </a>
             <a href="https://github.com/AlvaroSapata/Temple-Server" target="blank">
-              <img src="/github.png" alt="GitHub Server" />
+            <span class="tooltip"><img src="/github.png" alt="GitHub Server" /><span class="tooltip-text">Server</span></span>
             </a>
             <a href="https://templewav.netlify.app/" target="blank">
-              <img src="/http.png" alt="http" />
+            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
             </a>
           </div>
         </div>

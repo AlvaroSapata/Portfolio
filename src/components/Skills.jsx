@@ -6,7 +6,7 @@ function Skills() {
       <h3>Hard Skills</h3>
       <div className="HardSkills">
         <div class="contenedor-imagen">
-          <img src="/react.png" alt="React" />
+          <img src="/react-removebg-preview.png" alt="React" />
         </div>
 
         <div class="contenedor-imagen">
@@ -22,7 +22,7 @@ function Skills() {
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/bootstrap.jpg" alt="Bootstrap" />
+          <img src="/bootstrap-removebg-preview.png" alt="Bootstrap" />
         </div>
 
         <div class="contenedor-imagen">
@@ -30,7 +30,7 @@ function Skills() {
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/git.png" alt="Git" />
+          <img src="/git-removebg-preview.png" alt="Git" />
         </div>
 
         <div class="contenedor-imagen">
@@ -38,19 +38,19 @@ function Skills() {
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/npm.png" alt="npm" />
+          <img src="/npm-removebg-preview.png" alt="npm" />
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/express.png" alt="express" />
+          <img src="/express-removebg-preview.png" alt="express" />
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/mongo.png" alt="mongoDB" />
+          <img src="/mongo-removebg-preview.png" alt="mongoDB" />
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/node.png" alt="NodeJS" />
+          <img src="/node-removebg-preview.png" alt="NodeJS" />
         </div>
       </div>
       <h3>Soft Skills</h3>
