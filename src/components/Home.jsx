@@ -1,6 +1,5 @@
 import React from "react";
 function Home() {
-
   const handleScrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
@@ -50,11 +49,11 @@ function Home() {
         </div>
       </div>
 
-      <a href="#About" onClick={handleScrollToAbout}>
-        <div className="Arrow-container">
+      <div className="Arrow-container">
+        <a href="#About" onClick={handleScrollToAbout}>
           <img src="/arrow-removebg-preview (1).png" alt="arrow" />
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   );
 }

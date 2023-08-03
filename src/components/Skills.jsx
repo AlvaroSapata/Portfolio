@@ -3,6 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <div className="skillStructure">
+      <div className="hrSeparator"></div>
       <h3>Hard Skills</h3>
       <div className="HardSkills">
         <div class="contenedor-imagen">
@@ -41,26 +42,23 @@ function Skills() {
           <img src="/npm-removebg-preview.png" alt="npm" />
         </div>
 
-        <div class="contenedor-imagen">
+        {/* <div class="contenedor-imagen">
           <img src="/express-removebg-preview.png" alt="express" />
+        </div> */}
+
+        <div class="contenedor-imagen">
+          <img src="/mongodb-svgrepo-com.svg" alt="mongoDB" />
         </div>
 
         <div class="contenedor-imagen">
-          <img src="/mongo-removebg-preview.png" alt="mongoDB" />
-        </div>
-
-        <div class="contenedor-imagen">
-          <img src="/node-removebg-preview.png" alt="NodeJS" />
+          <img src="/node-js-svgrepo-com.svg" alt="NodeJS" />
         </div>
       </div>
       <h3>Soft Skills</h3>
-      <div  className="softSkills">
+      <div className="softSkills">
         <div class="contenedor-imagen2">
           {/* Debes poder explicar tus ideas y escuchar las necesidades y expectativas de los demás de manera efectiva */}
           <img src="/effective.jpg" alt="Effective Communication" />
-        </div>
-        <div class="contenedor-imagen2">
-          {/* Permite analizar problemas, identificar soluciones y tomar decisiones informadas */}
         </div>
         <div class="contenedor-imagen2">
           <img src="/critical.jpg" alt="Critical Thinking" />
@@ -88,7 +86,7 @@ function Skills() {
           <img src="/lifelong.png" alt="Curiosity and Continuous Learning" />
         </div>
       </div>
-      <hr />
+      <div className="hrSeparator"></div>
     </div>
   );
 }

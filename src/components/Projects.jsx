@@ -45,7 +45,7 @@ function Projects() {
         </div>
         <div className="ProjectContainer">
           <img src="/ImagenHomeTemple.png" alt="Temple" width={"200px"} />
-          <h4>Temple</h4>
+          <h4>Temple (In Develpment)</h4>
           <p>
             Stay up to date with the upcoming events of TEMPLE, as well as have
             access to the gallery and aftermovies of past events.
@@ -58,6 +58,24 @@ function Projects() {
             <span class="tooltip"><img src="/github.png" alt="GitHub Server" /><span class="tooltip-text">Server</span></span>
             </a>
             <a href="https://templewav.netlify.app/" target="blank">
+            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
+            </a>
+          </div>
+        </div>
+        <div className="ProjectContainer">
+          <img src="/pngwing.com (2).png" alt="Temple" width={"200px"} />
+          <h4>Los40 Gaming Music Awards (In Develpment)</h4>
+          <p>
+            Enjoy and vote for the top 40 songs of the Gaming music Awards by "Los40"
+          </p>
+          <div>
+            <a href="https://github.com/AlvaroSapata/Los40-Gaming_Music-Awards-Client" target="blank">
+            <span class="tooltip"><img src="/github.png" alt="GitHub Client" /><span class="tooltip-text">Client</span></span>
+            </a>
+            <a href="https://github.com/AlvaroSapata/Los40-Gaming-Music-Awards-Server" target="blank">
+            <span class="tooltip"><img src="/github.png" alt="GitHub Server" /><span class="tooltip-text">Server</span></span>
+            </a>
+            <a href="https://los40-gaming-music-awards.netlify.app/" target="blank">
             <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
             </a>
           </div>

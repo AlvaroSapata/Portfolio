@@ -10,11 +10,11 @@ function Contact() {
 
   return (
     <div id="Contact" className="ContactStyles">
-      <a href="#About" onClick={handleScrollToHome}>
-        <div className="Arrow-containerContact">
+      <div className="Arrow-containerContact">
+        <a href="#About" onClick={handleScrollToHome}>
           <img src="/arroiwUP.png" alt="arrow" />
-        </div>
-      </a>
+        </a>
+      </div>
       <div>
         <div className="ContactLinks">
           <div className="LinksImgContainer">
