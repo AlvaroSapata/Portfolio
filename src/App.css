@@ -122,7 +122,7 @@
 
 @media (max-width: 370px) {
   .HomeStyle h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .HomeStyle p {
@@ -341,47 +341,6 @@
   opacity: 1;
 }
 
-/* ________________________ CONTACT ________________________ */
-.ContactStyles {
-  background-color: #000000;
-  position: relative;
-  padding-top: 50px;
-  margin-top: 5px;
-}
-
-.ContactLinks {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.Arrow-containerContact {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -20px);
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Arrow-containerContact img {
-  max-height: 40px;
-  width: auto;
-  border: solid 2px white;
-  border-radius: 100%;
-  padding: 5px;
-  background-color: #000000;
-  transition: transform 0.3s ease;
-}
-
-.Arrow-containerContact img:hover {
-  transform: scale(1.1);
-  background-color: #6a726b;
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -410,4 +369,71 @@
 .tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+}
+/* ________________________ CONTACT ________________________ */
+.ContactStyles {
+  background-color: #000000;
+  position: relative;
+  padding-top: 50px;
+  margin-top: 5px;
+}
+
+.ContactLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+}
+
+.Arrow-containerContact {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -20px);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow-containerContact img {
+  max-height: 40px;
+  width: auto;
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #000000;
+  transition: transform 0.3s ease;
+}
+
+.Arrow-containerContact img:hover {
+  transform: scale(1.1);
+  background-color: #6a726b;
+  
+}
+
+.contenedor-imagen4 {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contenedor-imagen4 img {
+  max-height: 100%;
+  width: auto;
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 3px;
+  filter: opacity(50%);
+}
+
+.LinksContactImgContainer img {
+  transition: transform 0.3s ease;
+}
+.LinksContactImgContainer img:hover {
+  transform: scale(1.05);
+  filter: opacity(65%);
 }

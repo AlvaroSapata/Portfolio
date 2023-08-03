@@ -17,26 +17,26 @@ function Contact() {
       </div>
       <div>
         <div className="ContactLinks">
-          <div className="LinksImgContainer">
+          <div className="LinksContactImgContainer">
             <a
               href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
               target="blank"
             >
-              <div className="contenedor-imagen3">
+              <div className="contenedor-imagen4">
                 <img src="/linkedin.png" alt="linkedin" />
               </div>
             </a>
           </div>
-          <div className="LinksImgContainer">
+          <div className="LinksContactImgContainer">
             <a href="https://github.com/AlvaroSapata" target="blank">
-              <div className="contenedor-imagen3">
+              <div className="contenedor-imagen4">
                 <img src="/github.png" alt="linkedin" />
               </div>
             </a>
           </div>
-          <div className="LinksImgContainer">
+          <div className="LinksContactImgContainer">
             <a href="mailto:alvaromfdv@gmail.com" target="blank">
-              <div className="contenedor-imagen3">
+              <div className="contenedor-imagen4">
                 <img src="/email.png" alt="email" />
               </div>
             </a>
