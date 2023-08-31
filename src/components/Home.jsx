@@ -1,7 +1,7 @@
 import React from "react";
 function Home() {
   const handleScrollToAbout = () => {
-    const aboutSection = document.getElementById("about");
+    const aboutSection = document.getElementById("About");
     if (aboutSection) {
       window.scrollTo({
         top: aboutSection.offsetTop,
@@ -21,31 +21,43 @@ function Home() {
         creative realms, and create projects that amaze users.
       </p>
       <div className="HomeLinks">
-        <div className="LinksImgContainer">
-          <a
-            href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
-            target="blank"
-          >
-            <div className="contenedor-imagen3">
-              <img src="/linkedin.png" alt="linkedin" />
-            </div>
-          </a>
-        </div>
+        <div className="primeros3">
+          <div className="LinksImgContainer">
+            <a
+              href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
+              target="blank"
+            >
+              <div className="contenedor-imagen3">
+                <img src="/linkedin.png" alt="linkedin" />
+              </div>
+            </a>
+          </div>
 
-        <div className="LinksImgContainer">
-          <a href="https://github.com/AlvaroSapata" target="blank">
-            <div className="contenedor-imagen3">
-              <img src="/github.png" alt="linkedin" />
-            </div>
-          </a>
-        </div>
+          <div className="LinksImgContainer">
+            <a href="https://github.com/AlvaroSapata" target="blank">
+              <div className="contenedor-imagen3">
+                <img src="/github.png" alt="linkedin" />
+              </div>
+            </a>
+          </div>
 
-        <div className="LinksImgContainer">
-          <a href="mailto:alvaromfdv@gmail.com" target="blank">
-            <div className="contenedor-imagen3">
-              <img src="/email.png" alt="email" />
-            </div>
-          </a>
+          <div className="LinksImgContainer">
+            <a href="mailto:alvaromfdv@gmail.com" target="blank">
+              <div className="contenedor-imagen3">
+                <img src="/email.png" alt="email" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="CVcontainer">
+          <div className="LinksImgContainer">
+            <p>Download my CV!</p>
+            <a href="/Alvaro Martinez CV.pdf" download="Alvaro Martinez CV.pdf">
+              <div className="contenedor-imagen3">
+                <img src="/CVOk.png" alt="CV" />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
