@@ -66,7 +66,7 @@ function Projects() {
           <img src="/pngwing.com (2).png" alt="Temple" width={"200px"} />
           <h4>Los40 Gaming Music Awards (In Develpment)</h4>
           <p>
-            Enjoy and vote for the top 40 songs of the Gaming music Awards by "Los40"
+            Enjoy and vote for the top 40 songs of the Gaming music Awards by "Los40", the biggest music radio station of Spain
           </p>
           <div>
             <a href="https://github.com/AlvaroSapata/Los40-Gaming_Music-Awards-Client" target="blank">

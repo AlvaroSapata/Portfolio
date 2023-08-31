@@ -48,15 +48,6 @@ function Contact() {
               </div>
             </a>
           </div>
-
-          {/* <div className="LinksContactImgContainer">
-            <p>Download my CV!</p>
-            <a href="/Alvaro Martinez CV.pdf" download="Alvaro Martinez CV.pdf">
-              <div className="contenedor-imagen4">
-                <img src="/CVOk.png" alt="CV" />
-              </div>
-            </a>
-          </div> */}
         </div>
       </div>
     </div>

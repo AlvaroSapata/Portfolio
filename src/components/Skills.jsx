@@ -42,10 +42,6 @@ function Skills() {
           <img src="/npm-removebg-preview.png" alt="npm" />
         </div>
 
-        {/* <div class="contenedor-imagen">
-          <img src="/express-removebg-preview.png" alt="express" />
-        </div> */}
-
         <div class="contenedor-imagen">
           <img src="/mongodb-svgrepo-com.svg" alt="mongoDB" />
         </div>
