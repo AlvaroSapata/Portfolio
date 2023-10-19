@@ -25,7 +25,7 @@ function Home() {
           <div className="LinksImgContainer">
             <a
               href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
-              target="blank"
+              target="blank" rel="noreferrer"
             >
               <div className="contenedor-imagen3">
                 <img src="/linkedin.png" alt="linkedin" />
@@ -34,7 +34,7 @@ function Home() {
           </div>
 
           <div className="LinksImgContainer">
-            <a href="https://github.com/AlvaroSapata" target="blank">
+            <a href="https://github.com/AlvaroSapata" target="blank" rel="noreferrer">
               <div className="contenedor-imagen3">
                 <img src="/github.png" alt="linkedin" />
               </div>
@@ -42,7 +42,7 @@ function Home() {
           </div>
 
           <div className="LinksImgContainer">
-            <a href="mailto:alvaromfdv@gmail.com" target="blank">
+            <a href="mailto:alvaromfdv@gmail.com" target="blank" rel="noreferrer">
               <div className="contenedor-imagen3">
                 <img src="/email.png" alt="email" />
               </div>

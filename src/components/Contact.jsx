@@ -20,7 +20,7 @@ function Contact() {
           <div className="LinksContactImgContainer">
             <a
               href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
-              target="blank"
+              target="blank" rel="noreferrer"
             >
               <div className="contenedor-imagen4">
                 <img src="/linkedin.png" alt="linkedin" />
@@ -28,14 +28,14 @@ function Contact() {
             </a>
           </div>
           <div className="LinksContactImgContainer">
-            <a href="https://github.com/AlvaroSapata" target="blank">
+            <a href="https://github.com/AlvaroSapata" target="blank" rel="noreferrer">
               <div className="contenedor-imagen4">
                 <img src="/github.png" alt="linkedin" />
               </div>
             </a>
           </div>
           <div className="LinksContactImgContainer">
-            <a href="mailto:alvaromfdv@gmail.com" target="blank">
+            <a href="mailto:alvaromfdv@gmail.com" target="blank" rel="noreferrer">
               <div className="contenedor-imagen4">
                 <img src="/email.png" alt="email" />
               </div>

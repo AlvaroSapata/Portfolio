@@ -37,7 +37,7 @@ function background() {
           </div>
           <div className="backgroundSectionImage">
             {" "}
-            <a href="https://www.ubu.es/" target="_blank">
+            <a href="https://www.ubu.es/" target="_blank" rel="noreferrer" >
               <img src="/ubu.png" alt="profile" className="profileImg" />
             </a>
             <p>Burgos University - Spain</p>
@@ -52,7 +52,7 @@ function background() {
           </div>
           <div className="backgroundSectionImage">
             {" "}
-            <a href="https://portal3.ipb.pt/index.php/pt/ipb" target="_blank">
+            <a href="https://portal3.ipb.pt/index.php/pt/ipb" target="_blank" rel="noreferrer">
               <img src="/IPB.jpg" alt="profile" className="profileImg" />
             </a>
             <p>Instituto Politecnico de Bragança - Portugal</p>
@@ -66,7 +66,7 @@ function background() {
           </div>
           <div className="backgroundSectionImage">
             {" "}
-            <a href="https://english.kookmin.ac.kr/" target="_blank">
+            <a href="https://english.kookmin.ac.kr/" target="_blank" rel="noreferrer">
               <img src="/kookmin.png" alt="profile" className="profileImg" />
             </a>
             <p>Kookmin University 국민대학교 - South Korea</p>
