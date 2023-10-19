@@ -34,6 +34,22 @@
 .NavBar a:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 460px) {
+  .NavBar a {
+    font-size: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .NavBar a {
+    font-size: 80%;
+  }
+}
+@media (max-width: 370px) {
+  .NavBar a {
+    font-size: 70%;
+  }
+}
 /* ________________________ HOME ________________________ */
 
 .HomeStyle {
