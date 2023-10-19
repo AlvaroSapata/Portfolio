@@ -17,6 +17,15 @@ function Navbar() {
       });
     }
   };
+  const handleScrollTobackground = () => {
+    const aboutSection = document.getElementById("background");
+    if (aboutSection) {
+      window.scrollTo({
+        top: aboutSection.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
 
   const handleScrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
@@ -46,6 +55,10 @@ function Navbar() {
 
       <a href="#About" onClick={handleScrollToAbout}>
         About
+      </a>
+
+      <a href="#background" onClick={handleScrollTobackground}>
+        Background
       </a>
 
       <a href="#Projects" onClick={handleScrollToProjects}>
