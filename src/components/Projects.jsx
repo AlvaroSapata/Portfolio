@@ -11,7 +11,7 @@ function Projects() {
             alt="Voltaje Barber Studio"
             width={"200px"}
           />
-          <h4>Voltaje Barber Studio</h4>
+          <h4>Voltaje Barber Studio (web)</h4>
           <p>
             Pick Scissors and Razors to keep your Hair and Beard short while
             avoid the bombs!
