@@ -304,6 +304,7 @@
   border-radius: 100%;
   border: white solid 2px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .contenedor-imagen img {
@@ -335,6 +336,10 @@
   width: 80%;
   margin-left: 10vw;
   background: linear-gradient(to right, black, #807e7e, black);
+}
+
+.skills-name{
+  font-size: smaller;
 }
 
 @media (max-width: 670px) {
@@ -488,7 +493,10 @@
   padding-top: 50px;
   margin-top: 5px;
 }
-
+.ContactStyles h4{
+  color: #6a726b;
+  font-size: 20px;
+}
 .ContactLinks {
   display: flex;
   justify-content: center;

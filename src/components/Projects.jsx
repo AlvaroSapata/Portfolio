@@ -17,15 +17,28 @@ function Projects() {
             avoid the bombs!
           </p>
           <div>
-            <a href="https://github.com/AlvaroSapata/Voltaje-Barber-Studio" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub" /><span class="tooltip-text">Client</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/Voltaje-Barber-Studio"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub" />
+                <span class="tooltip-text">Client</span>
+              </span>
             </a>
-            <a href="https://alvarosapata.github.io/Voltaje-Barber-Studio/" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
+            <a
+              href="https://alvarosapata.github.io/Voltaje-Barber-Studio/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
             </a>
           </div>
         </div>
-
         <div className="ProjectContainer">
           <img src="/NomadVentures.png" alt="NomadVentures" width={"200px"} />
           <h4>NomadVentures</h4>
@@ -35,11 +48,25 @@ function Projects() {
             destinations.
           </p>
           <div>
-            <a href="https://github.com/AlvaroSapata/NomadVentures" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub" /><span class="tooltip-text">Client</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/NomadVentures"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub" />
+                <span class="tooltip-text">Client</span>
+              </span>
             </a>
-            <a href="https://nomadventures.adaptable.app/" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
+            <a
+              href="https://nomadventures.adaptable.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
             </a>
           </div>
         </div>
@@ -51,32 +78,100 @@ function Projects() {
             access to the gallery and aftermovies of past events.
           </p>
           <div>
-            <a href="https://github.com/AlvaroSapata/Temple-Client" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub Client" /><span class="tooltip-text">Client</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/Temple-Client"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
             </a>
-            <a href="https://github.com/AlvaroSapata/Temple-Server" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub Server" /><span class="tooltip-text">Server</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/Temple-Server"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Server" />
+                <span class="tooltip-text">Server</span>
+              </span>
             </a>
             <a href="https://templewav.netlify.app/" target="blank">
-            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
             </a>
           </div>
         </div>
         <div className="ProjectContainer">
-          <img src="/pngwing.com (2).png" alt="Temple" width={"200px"} />
+          <img src="/pngwing.com (2).png" alt="Los40" width={"200px"} />
           <h4>Los40 Gaming Music Awards (In Develpment)</h4>
           <p>
-            Enjoy and vote for the top 40 songs of the Gaming music Awards by "Los40", the biggest music radio station of Spain
+            Enjoy and vote for the top 40 songs of the Gaming music Awards by
+            "Los40", the biggest music radio station of Spain
           </p>
           <div>
-            <a href="https://github.com/AlvaroSapata/Los40-Gaming_Music-Awards-Client" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub Client" /><span class="tooltip-text">Client</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/Los40-Gaming_Music-Awards-Client"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
             </a>
-            <a href="https://github.com/AlvaroSapata/Los40-Gaming-Music-Awards-Server" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/github.png" alt="GitHub Server" /><span class="tooltip-text">Server</span></span>
+            <a
+              href="https://github.com/AlvaroSapata/Los40-Gaming-Music-Awards-Server"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Server" />
+                <span class="tooltip-text">Server</span>
+              </span>
             </a>
-            <a href="https://los40-gaming-music-awards.netlify.app/" target="blank" rel="noreferrer">
-            <span class="tooltip"><img src="/http.png" alt="http" /><span class="tooltip-text">Live Demo</span></span>
+            <a
+              href="https://los40-gaming-music-awards.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>{" "}
+        <div className="ProjectContainer">
+          <img src="/hero-logo.svg" alt="La Velada IV" width={"200px"} />
+          <h4>La Velada IV - Presentacion</h4>
+          <p>
+            Landing page of LA VELADA IV - where boxers will be presented
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/la-velada-web-IV"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://laveladaiv.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
             </a>
           </div>
         </div>

@@ -6,48 +6,109 @@ function Skills() {
       <div className="hrSeparator"></div>
       <h3>Hard Skills</h3>
       <div className="HardSkills">
-        <div class="contenedor-imagen">
-          <img src="/react-removebg-preview.png" alt="React" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/javascript.svg" alt="JavaScript" />
+          </div>
+          <span class="skills-name">JavaScript</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/javascript.svg" alt="JavaScript" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/html5.svg" alt="HTML5" />
+          </div>
+          <span class="skills-name">HTML5</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/html5.svg" alt="HTML5" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/css.svg" alt="CSS" />
+          </div>
+          <span class="skills-name">CSS</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/css.svg" alt="CSS" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/react-removebg-preview.png" alt="React" />
+          </div>
+          <span class="skills-name">React</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/bootstrap-removebg-preview.png" alt="Bootstrap" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/astro.png" alt="Astro" />
+          </div>
+          <span class="skills-name">Astro</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/visualstudio.png" alt="Visual Studio Code" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/node-js-svgrepo-com.svg" alt="NodeJS" />
+          </div>
+          <span class="skills-name">NodeJS</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/git-removebg-preview.png" alt="Git" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="express.png" alt="Express.js" />
+          </div>
+          <span class="skills-name">Express.js</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/github.png" alt="GitHub" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/mongodb-svgrepo-com.svg" alt="mongoDB" />
+          </div>
+          <span class="skills-name">MongoDB</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/npm-removebg-preview.png" alt="npm" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/npm-removebg-preview.png" alt="npm" />
+          </div>
+          <span class="skills-name">NPM</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/mongodb-svgrepo-com.svg" alt="mongoDB" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/bootstrap-removebg-preview.png" alt="Bootstrap" />
+          </div>
+          <span class="skills-name">Bootsrap</span>
         </div>
 
-        <div class="contenedor-imagen">
-          <img src="/node-js-svgrepo-com.svg" alt="NodeJS" />
+        <div>
+          <div class="contenedor-imagen">
+            <img src="tailwind.png" alt="Tailwind" />
+          </div>
+          <span class="skills-name">Tailwind</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
+            <img src="threeJS.png" alt="ThreeJS" />
+          </div>
+          <span class="skills-name">Three.js</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/github.png" alt="GitHub" />
+          </div>
+          <span class="skills-name">GitHub</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/git-removebg-preview.png" alt="Git" />
+          </div>
+          <span class="skills-name">Git</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/visualstudio.png" alt="Visual Studio Code" />
+          </div>
+          <span class="skills-name">VS Code</span>
         </div>
       </div>
       <h3>Soft Skills</h3>
