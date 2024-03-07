@@ -164,7 +164,7 @@ function Projects() {
               </span>
             </a>
             <a
-              href="https://laveladaiv.netlify.app/"
+              href="https://laveladaiv-presentacion.netlify.app/"
               target="blank"
               rel="noreferrer"
             >
