@@ -148,10 +148,8 @@ function Projects() {
         </div>{" "}
         <div className="ProjectContainer">
           <img src="/hero-logo.svg" alt="La Velada IV" width={"200px"} />
-          <h4>La Velada IV - Presentacion</h4>
-          <p>
-            Landing page of LA VELADA IV - where boxers will be presented
-          </p>
+          <h4>La Velada IV - Presentation day</h4>
+          <p>Landing page of LA VELADA IV - where boxers will be presented, weighed-in, interviewed, and face-off at Teatro Vitoria (BCN)</p>
           <div>
             <a
               href="https://github.com/AlvaroSapata/la-velada-web-IV"
@@ -165,6 +163,33 @@ function Projects() {
             </a>
             <a
               href="https://laveladaiv-presentacion.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div className="ProjectContainer">
+          <img src="/LaVeladaIV.png" alt="La Velada IV" width={"200px"} />
+          <h4>La Velada IV</h4>
+          <p>Landing page of LA VELADA IV - where all the information of La Velada will be presented, as well as every important link to be up to date with the latest information</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/la-velada-IV-Oficial"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://laveladaiv.netlify.app/"
               target="blank"
               rel="noreferrer"
             >
