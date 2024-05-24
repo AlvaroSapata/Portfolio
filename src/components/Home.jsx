@@ -52,7 +52,7 @@ function Home() {
         <div className="CVcontainer">
           <div className="LinksImgContainer">
             <p>Download my CV!</p>
-            <a href="/Alvaro Martinez CV.pdf" download="Alvaro Martinez CV.pdf">
+            <a href="/CV Alvaro Martinez (EN).pdf" download="Alvaro Martinez CV.pdf">
               <div className="contenedor-imagen3">
                 <img src="/CVOk.png" alt="CV" />
               </div>
