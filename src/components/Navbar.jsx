@@ -1,72 +1,63 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
-  const handleScrollToHome = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  const handleScrollToAbout = () => {
-    const aboutSection = document.getElementById("about");
-    if (aboutSection) {
-      window.scrollTo({
-        top: aboutSection.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-  const handleScrollTobackground = () => {
-    const aboutSection = document.getElementById("background");
-    if (aboutSection) {
-      window.scrollTo({
-        top: aboutSection.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-
-  const handleScrollToProjects = () => {
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      window.scrollTo({
-        top: projectsSection.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-
-  const handleScrollToContact = () => {
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      window.scrollTo({
-        top: contactSection.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <div className="NavBar">
-      <a href="#Home" onClick={handleScrollToHome}>
+      <Link
+        activeClass="active"
+        to="Home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         Home
-      </a>
+      </Link>
 
-      <a href="#About" onClick={handleScrollToAbout}>
+      <Link
+        activeClass="active"
+        to="About"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         About
-      </a>
+      </Link>
 
-      <a href="#background" onClick={handleScrollTobackground}>
+      <Link
+        activeClass="active"
+        to="background"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         Background
-      </a>
+      </Link>
 
-      <a href="#Projects" onClick={handleScrollToProjects}>
+      <Link
+        activeClass="active"
+        to="Projects"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         Projects
-      </a>
-      <a href="#Contact" onClick={handleScrollToContact}>
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="Contact"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         Contact
-      </a>
+      </Link>
     </div>
   );
 }

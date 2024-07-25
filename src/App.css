@@ -33,6 +33,7 @@
 
 .NavBar a:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 @media (max-width: 460px) {
@@ -133,6 +134,7 @@
 .Arrow-container img:hover {
   transform: scale(1.1);
   background-color: #344938;
+  cursor: pointer;
 }
 
 .LinksImgContainer img {
@@ -140,6 +142,7 @@
 }
 .LinksImgContainer img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -218,7 +221,6 @@
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
-  
 }
 
 .backgroundSectionImage img {
@@ -229,7 +231,7 @@
   transition: transform 0.3s ease;
 }
 
-.backgroundSectionImage img:hover{
+.backgroundSectionImage img:hover {
   transform: scale(1.07);
 }
 
@@ -250,12 +252,11 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -8px; 
+  bottom: -8px;
   width: 100%;
-  height: 3px; 
-  background: linear-gradient(to left, transparent, #807E7E, transparent); 
+  height: 3px;
+  background: linear-gradient(to left, transparent, #807e7e, transparent);
 }
-
 
 @media (max-width: 670px) {
   .backgroundStructure {
@@ -338,7 +339,7 @@
   background: linear-gradient(to right, black, #807e7e, black);
 }
 
-.skills-name{
+.skills-name {
   font-size: smaller;
 }
 
@@ -394,6 +395,7 @@
 
 .ProjectContainer:hover img {
   opacity: 0.2;
+  cursor: pointer;
 }
 
 .ProjectContainer {
@@ -493,7 +495,7 @@
   padding-top: 50px;
   margin-top: 5px;
 }
-.ContactStyles h4{
+.ContactStyles h4 {
   color: #6a726b;
   font-size: 20px;
 }

@@ -1,10 +1,11 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Contact() {
   const handleScrollToHome = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: true,
     });
   };
 
@@ -20,7 +21,8 @@ function Contact() {
           <div className="LinksContactImgContainer">
             <a
               href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-fern%C3%A1ndez-de-velasco-0034b7161/"
-              target="blank" rel="noreferrer"
+              target="blank"
+              rel="noreferrer"
             >
               <div className="contenedor-imagen4">
                 <img src="/linkedin.png" alt="linkedin" />
@@ -28,14 +30,22 @@ function Contact() {
             </a>
           </div>
           <div className="LinksContactImgContainer">
-            <a href="https://github.com/AlvaroSapata" target="blank" rel="noreferrer">
+            <a
+              href="https://github.com/AlvaroSapata"
+              target="blank"
+              rel="noreferrer"
+            >
               <div className="contenedor-imagen4">
                 <img src="/github.png" alt="linkedin" />
               </div>
             </a>
           </div>
           <div className="LinksContactImgContainer">
-            <a href="mailto:alvaromfdv@gmail.com" target="blank" rel="noreferrer">
+            <a
+              href="mailto:alvaromfdv@gmail.com"
+              target="blank"
+              rel="noreferrer"
+            >
               <div className="contenedor-imagen4">
                 <img src="/email.png" alt="email" />
               </div>
