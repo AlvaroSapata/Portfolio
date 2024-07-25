@@ -200,6 +200,33 @@ function Projects() {
             </a>
           </div>
         </div>
+        <div className="ProjectContainer">
+          <img src="/Google translator chatgpt.png" alt="Google Translate" width={"200px"} />
+          <h4>Google Translate - Chatgpt Integration</h4>
+          <p>Google Translate clone integrating OpenAi gpt turbo 3.5</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/translator"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://translatorclone.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
