@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
@@ -28,7 +29,7 @@ function Navbar() {
 
       <Link
         activeClass="active"
-        to="background"
+        to="Background"
         spy={true}
         smooth={true}
         offset={-70}

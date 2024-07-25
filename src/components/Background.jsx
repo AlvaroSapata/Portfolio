@@ -2,7 +2,7 @@ import React from "react";
 
 function background() {
   return (
-    <div id="background" className="BackgroundStructure">
+    <div id="Background" className="BackgroundStructure">
       <div className="backgroundText">
         <h3>Background</h3>
         <div className="backgroundSection">
