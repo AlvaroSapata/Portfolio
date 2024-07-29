@@ -43,6 +43,13 @@ function Skills() {
 
         <div>
           <div class="contenedor-imagen">
+            <img src="/Zustand.png" alt="Zustand" />
+          </div>
+          <span class="skills-name">Zustand</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
             <img src="/node-js-svgrepo-com.svg" alt="NodeJS" />
           </div>
           <span class="skills-name">NodeJS</span>
@@ -102,13 +109,6 @@ function Skills() {
             <img src="/git-removebg-preview.png" alt="Git" />
           </div>
           <span class="skills-name">Git</span>
-        </div>
-
-        <div>
-          <div class="contenedor-imagen">
-            <img src="/visualstudio.png" alt="Visual Studio Code" />
-          </div>
-          <span class="skills-name">VS Code</span>
         </div>
       </div>
       <h3>Soft Skills</h3>
