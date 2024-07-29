@@ -5,6 +5,7 @@ function Projects() {
     <div id="Projects" className="projectStructure">
       <h3>Projects</h3>
       <div className="AllProjects">
+        {/* Voltaje Barber Studio */}
         <div className="ProjectContainer">
           <img
             src="/VoltajeBarberStudio.png"
@@ -39,6 +40,70 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        {/* Translator */}
+        <div className="ProjectContainer">
+          <img
+            src="/Google translator chatgpt.png"
+            alt="Google Translate"
+            width={"200px"}
+          />
+          <h4>Google Translate - Chatgpt Integration</h4>
+          <p>Google Translate clone integrating OpenAi gpt turbo 3.5</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/translator"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://translatorclone.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* QuizzMe */}
+        <div className="ProjectContainer">
+          <img src="/QME.png" alt="Google Translate" width={"200px"} />
+          <h4>QuizzMe</h4>
+          <p>Quizz App using Zustand</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/quizz-app"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://quizzmeapp.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* NomadVentures */}
         <div className="ProjectContainer">
           <img src="/NomadVentures.png" alt="NomadVentures" width={"200px"} />
           <h4>NomadVentures</h4>
@@ -70,6 +135,73 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        {/* VeladaLanding */}
+        <div className="ProjectContainer">
+          <img src="/hero-logo.svg" alt="La Velada IV" width={"200px"} />
+          <h4>La Velada IV - Presentation day</h4>
+          <p>
+            Landing page of LA VELADA IV - where boxers will be presented,
+            weighed-in, interviewed, and face-off at Teatro Vitoria (BCN)
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/la-velada-web-IV"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://laveladaiv-presentacion.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Velada */}
+        <div className="ProjectContainer">
+          <img src="/LaVeladaIV.png" alt="La Velada IV" width={"200px"} />
+          <h4>La Velada IV</h4>
+          <p>
+            Landing page of LA VELADA IV - where all the information of La
+            Velada will be presented, as well as every important link to be up
+            to date with the latest information
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/la-velada-IV-Oficial"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://laveladaiv.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Temple */}
         <div className="ProjectContainer">
           <img src="/ImagenHomeTemple.png" alt="Temple" width={"200px"} />
           <h4>Temple (In Develpment)</h4>
@@ -106,6 +238,8 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        {/* Los40 */}
         <div className="ProjectContainer">
           <img src="/pngwing.com (2).png" alt="Los40" width={"200px"} />
           <h4>Los40 Gaming Music Awards (In Develpment)</h4>
@@ -136,87 +270,6 @@ function Projects() {
             </a>
             <a
               href="https://los40-gaming-music-awards.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>{" "}
-        <div className="ProjectContainer">
-          <img src="/hero-logo.svg" alt="La Velada IV" width={"200px"} />
-          <h4>La Velada IV - Presentation day</h4>
-          <p>Landing page of LA VELADA IV - where boxers will be presented, weighed-in, interviewed, and face-off at Teatro Vitoria (BCN)</p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/la-velada-web-IV"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://laveladaiv-presentacion.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className="ProjectContainer">
-          <img src="/LaVeladaIV.png" alt="La Velada IV" width={"200px"} />
-          <h4>La Velada IV</h4>
-          <p>Landing page of LA VELADA IV - where all the information of La Velada will be presented, as well as every important link to be up to date with the latest information</p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/la-velada-IV-Oficial"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://laveladaiv.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div className="ProjectContainer">
-          <img src="/Google translator chatgpt.png" alt="Google Translate" width={"200px"} />
-          <h4>Google Translate - Chatgpt Integration</h4>
-          <p>Google Translate clone integrating OpenAi gpt turbo 3.5</p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/translator"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://translatorclone.netlify.app/"
               target="blank"
               rel="noreferrer"
             >
