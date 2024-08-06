@@ -103,6 +103,36 @@ function Projects() {
           </div>
         </div>
 
+        {/* Notes */}
+        <div className="ProjectContainer">
+          <img src="/notes.png" alt="NomadVentures" width={"200px"} />
+          <h4>Notes</h4>
+          <p>
+          Notes is a Note Taking application with markdown support, built with React, that allows users to create, edit, delete, and filter notes. Each note can be tagged with multiple tags for better organization.
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/todo-notes"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://mynotestodo.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
         {/* NomadVentures */}
         <div className="ProjectContainer">
           <img src="/NomadVentures.png" alt="NomadVentures" width={"200px"} />
