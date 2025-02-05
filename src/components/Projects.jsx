@@ -103,12 +103,43 @@ function Projects() {
           </div>
         </div>
 
+        {/* EchoTube */}
+        <div className="ProjectContainer">
+          <img src="/Echotube.png" alt="Google Translate" width={"200px"} />
+          <h4>EchoTube</h4>
+          <p>YouTube clone built with React and the YouTube Data API, allowing users to search, browse, and watch videos with a user-friendly interface.</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/EchoTube"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://myechotube.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
         {/* Notes */}
         <div className="ProjectContainer">
           <img src="/notes.png" alt="NomadVentures" width={"200px"} />
           <h4>Notes</h4>
           <p>
-          Notes is a Note Taking application with markdown support, built with React, that allows users to create, edit, delete, and filter notes. Each note can be tagged with multiple tags for better organization.
+            Notes is a Note Taking application with markdown support, built with
+            React, that allows users to create, edit, delete, and filter notes.
+            Each note can be tagged with multiple tags for better organization.
           </p>
           <div>
             <a

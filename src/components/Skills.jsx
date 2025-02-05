@@ -26,6 +26,12 @@ function Skills() {
           </div>
           <span class="skills-name">CSS</span>
         </div>
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/Typescript.png" alt="CSS" />
+          </div>
+          <span class="skills-name">Typescript</span>
+        </div>
 
         <div>
           <div class="contenedor-imagen">
@@ -34,6 +40,12 @@ function Skills() {
           <span class="skills-name">React</span>
         </div>
 
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/vite.png" alt="Astro" />
+          </div>
+          <span class="skills-name">Vite</span>
+        </div>
         <div>
           <div class="contenedor-imagen">
             <img src="/astro.png" alt="Astro" />
@@ -69,6 +81,12 @@ function Skills() {
           <span class="skills-name">MongoDB</span>
         </div>
 
+        <div>
+          <div class="contenedor-imagen">
+            <img src="/API.png" alt="npm" />
+          </div>
+          <span class="skills-name">API</span>
+        </div>
         <div>
           <div class="contenedor-imagen">
             <img src="/npm-removebg-preview.png" alt="npm" />
