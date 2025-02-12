@@ -5,6 +5,96 @@ function Projects() {
     <div id="Projects" className="projectStructure">
       <h3>Projects</h3>
       <div className="AllProjects">
+        {/* PocketPal */}
+        <div className="ProjectContainer">
+          <img src="/Pocketpal.png" alt="Google Translate" width={"200px"} />
+          <h4>PocketPal</h4>
+          <p>Real-time chat using socket.io and Zustand</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/PocketPal"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Repo</span>
+              </span>
+            </a>
+            <a
+              href="https://pocketpal-tu9l.onrender.com/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        {/* QuizzMe */}
+        <div className="ProjectContainer">
+          <img src="/QME.png" alt="Google Translate" width={"200px"} />
+          <h4>QuizzMe</h4>
+          <p>Quizz App using Zustand</p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/quizz-app"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://quizzmeapp.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* EchoTube */}
+        <div className="ProjectContainer">
+          <img src="/Echotube.png" alt="Google Translate" width={"200px"} />
+          <h4>EchoTube</h4>
+          <p>
+            YouTube clone built with React and the YouTube Data API, allowing
+            users to search, browse, and watch videos with a user-friendly
+            interface.
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/EchoTube"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://myechotube.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
         {/* Voltaje Barber Studio */}
         <div className="ProjectContainer">
           <img
@@ -63,64 +153,6 @@ function Projects() {
             </a>
             <a
               href="https://translatorclone.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        {/* QuizzMe */}
-        <div className="ProjectContainer">
-          <img src="/QME.png" alt="Google Translate" width={"200px"} />
-          <h4>QuizzMe</h4>
-          <p>Quizz App using Zustand</p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/quizz-app"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://quizzmeapp.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
-        {/* EchoTube */}
-        <div className="ProjectContainer">
-          <img src="/Echotube.png" alt="Google Translate" width={"200px"} />
-          <h4>EchoTube</h4>
-          <p>YouTube clone built with React and the YouTube Data API, allowing users to search, browse, and watch videos with a user-friendly interface.</p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/EchoTube"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://myechotube.netlify.app/"
               target="blank"
               rel="noreferrer"
             >
@@ -197,41 +229,13 @@ function Projects() {
           </div>
         </div>
 
-        {/* VeladaLanding */}
-        <div className="ProjectContainer">
-          <img src="/hero-logo.svg" alt="La Velada IV" width={"200px"} />
-          <h4>La Velada IV - Presentation day</h4>
-          <p>
-            Landing page of LA VELADA IV - where boxers will be presented,
-            weighed-in, interviewed, and face-off at Teatro Vitoria (BCN)
-          </p>
-          <div>
-            <a
-              href="https://github.com/AlvaroSapata/la-velada-web-IV"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/github.png" alt="GitHub Client" />
-                <span class="tooltip-text">Client</span>
-              </span>
-            </a>
-            <a
-              href="https://laveladaiv-presentacion.netlify.app/"
-              target="blank"
-              rel="noreferrer"
-            >
-              <span class="tooltip">
-                <img src="/http.png" alt="http" />
-                <span class="tooltip-text">Live Demo</span>
-              </span>
-            </a>
-          </div>
-        </div>
-
         {/* Velada */}
         <div className="ProjectContainer">
-          <img src="/LaVeladaIV.png" alt="La Velada IV" width={"200px"} />
+          <img
+            src="/LaVeladaIVoficial.png"
+            alt="La Velada IV"
+            width={"200px"}
+          />
           <h4>La Velada IV</h4>
           <p>
             Landing page of LA VELADA IV - where all the information of La
@@ -262,8 +266,40 @@ function Projects() {
           </div>
         </div>
 
-        {/* Temple */}
+        {/* VeladaLanding */}
         <div className="ProjectContainer">
+          <img src="/veladalanding.png" alt="La Velada IV" width={"200px"} />
+          <h4>La Velada IV - Presentation day</h4>
+          <p>
+            Landing page of LA VELADA IV - where boxers will be presented,
+            weighed-in, interviewed, and face-off at Teatro Vitoria (BCN)
+          </p>
+          <div>
+            <a
+              href="https://github.com/AlvaroSapata/la-velada-web-IV"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/github.png" alt="GitHub Client" />
+                <span class="tooltip-text">Client</span>
+              </span>
+            </a>
+            <a
+              href="https://laveladaiv-presentacion.netlify.app/"
+              target="blank"
+              rel="noreferrer"
+            >
+              <span class="tooltip">
+                <img src="/http.png" alt="http" />
+                <span class="tooltip-text">Live Demo</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Temple */}
+        {/* <div className="ProjectContainer">
           <img src="/ImagenHomeTemple.png" alt="Temple" width={"200px"} />
           <h4>Temple (In Develpment)</h4>
           <p>
@@ -298,11 +334,11 @@ function Projects() {
               </span>
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* Los40 */}
         <div className="ProjectContainer">
-          <img src="/pngwing.com (2).png" alt="Los40" width={"200px"} />
+          <img src="/los40.png" alt="Los40" width={"200px"} />
           <h4>Los40 Gaming Music Awards (In Develpment)</h4>
           <p>
             Enjoy and vote for the top 40 songs of the Gaming music Awards by

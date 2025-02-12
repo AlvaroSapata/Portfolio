@@ -83,6 +83,13 @@ function Skills() {
 
         <div>
           <div class="contenedor-imagen">
+            <img src="/socketio.png" alt="mongoDB" />
+          </div>
+          <span class="skills-name">Socket.io</span>
+        </div>
+
+        <div>
+          <div class="contenedor-imagen">
             <img src="/API.png" alt="npm" />
           </div>
           <span class="skills-name">API</span>
