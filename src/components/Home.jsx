@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function Home() {
   return (
     <div id="Home" className="HomeStyle">
-      <h1>Alvaro Martinez</h1>
+      <h1 className="name-title">Alvaro Martinez</h1>
       <p>Full Stack Web Developer</p>
       <p>Passionate about programming and web application development.</p>
       <p>

@@ -72,6 +72,15 @@
   font-size: 55px;
 }
 
+.name-title {
+  font-weight: bold;
+  color: rgb(221, 221, 221);
+  text-shadow: 
+  -1px -1px 0 #25362b, 1px -1px 0 #25362b, 
+  -1px  1px 0 #25362b, 1px  1px 0 #25362b, /* Reborde negro */
+  0 0 8px rgba(255, 255, 255, 0.6);   /* Glow suave */
+}
+
 .HomeStyle p {
   font-size: 20px;
   width: 90vw;
